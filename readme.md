@@ -11,4 +11,6 @@ This uses a ROM as a core for a few things (at once)
 
   main.c will build a program to construct the rom image. the compiled programs output is for a 64k ROM chip, named output.bin 
 
+  I think this can be optimized. If an output can be freed up, you can create a second serial stream that would output a different value (say, the binary nibble for the key instead of the ASCII value)
+
 ---
