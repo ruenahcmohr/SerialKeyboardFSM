@@ -9,4 +9,6 @@ This uses a ROM as a core for a few things (at once)
  This circuit can be made quite compact if a flash chip (29F800) and 16 bit latch (74xx16374) are used.
  9600 Baud is difficult to achieve because or how slow it is. (just sayin)
 
+  main.c will build a program to construct the rom image. the compiled programs output is for a 64k ROM chip, named output.bin 
+
 ---
